@@ -1,4 +1,4 @@
----
+
 title: Data Analysis - Computer Fluid Dynamics
 layout: default
 section: report
@@ -6,7 +6,7 @@ date: 2026-02-05
 nav_order: 1
 lead: 
 updated: 2026-02-05
----
+
 
 
 # Computational Fluid Dynamics Analysis
@@ -15,7 +15,7 @@ updated: 2026-02-05
 This project analyzes a fluid dynamics dataset to understand the relationship between pressure, velocity, and acceleration.  
 The main focus is on predicting the y-direction acceleration (dv/dt) using both statistical analysis and machine learning methods.
 
----
+
 
 ## Report (Full Version)
 
@@ -26,7 +26,7 @@ The main focus is on predicting the y-direction acceleration (dv/dt) using both 
   </iframe>
 </div>
 
----
+
 
 ## Background
 
@@ -38,7 +38,7 @@ Key variables include:
 
 The dataset consists of **10,000 samples**, including both laminar and turbulent flows.  [oai_citation:0‡CFD_en.pdf](sediment://file_0000000006447206816b445883486f0d)
 
----
+
 
 ## Objectives
 
@@ -47,7 +47,7 @@ The dataset consists of **10,000 samples**, including both laminar and turbulent
 - Build predictive models for dv/dt  
 - Compare performance across different flow regimes  
 
----
+
 
 ## Exploratory Data Analysis
 
@@ -64,7 +64,7 @@ The dataset consists of **10,000 samples**, including both laminar and turbulent
 - Velocity vs acceleration  
 - Velocity field (u–v plane)
 
----
+
 
 ## Statistical Analysis
 
@@ -77,7 +77,7 @@ Hypothesis testing (ANCOVA) showed:
 - Interaction between pressure and flow type is significant  
 - Pressure gradient contributes to acceleration behavior  
 
----
+
 
 ## Machine Learning Approach
 
@@ -94,7 +94,7 @@ Hypothesis testing (ANCOVA) showed:
 
 - dvdt  
 
----
+
 
 ## Results
 
@@ -109,7 +109,7 @@ Hypothesis testing (ANCOVA) showed:
 - Prediction errors increase in **turbulent flow**  
 - SVR provides more stable predictions
 
----
+
 
 ## Improvements
 
@@ -118,7 +118,7 @@ Hypothesis testing (ANCOVA) showed:
 
 These improved the **stability** of model performance, even if average accuracy remained similar.
 
----
+
 
 ## Discussion
 
@@ -128,7 +128,7 @@ This project highlights the importance of:
 - Evaluating models carefully using cross-validation  
 - Considering flow regimes when modeling complex systems  
 
----
+
 
 ## Conclusion
 
@@ -137,7 +137,7 @@ This project highlights the importance of:
 - Turbulence introduces significant complexity  
 - Robust validation is essential for reliable modeling  
 
----
+
 
 ## Tech Stack
 
@@ -146,7 +146,7 @@ This project highlights the importance of:
 - Scikit-learn  
 - Data Visualization  
 
----
+
 
 ## Links
 
