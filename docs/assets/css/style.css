@@ -355,5 +355,17 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
 
 .pdf-container{
   width:100%;
-  height:calc(100vh - 200px); /* 画面にフィット */
+  height:calc(100vh - 200px);
+  min-height:700px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  overflow:hidden;
+  background:#fff;
+}
+
+.pdf-container iframe{
+  width:100%;
+  height:100%;
+  border:0;
+  display:block;
 }
