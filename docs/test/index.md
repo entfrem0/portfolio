@@ -1,7 +1,7 @@
 ---
-title: 記事一覧
+title: Article
 layout: default
-lead: 記事一覧です。
+lead: Article Lists
 permalink: /test/
 section: test
 nav_order: 999

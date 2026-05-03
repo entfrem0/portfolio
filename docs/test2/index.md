@@ -1,11 +1,11 @@
 ---
-title: 記事一覧
+title: Articles
 layout: default
-lead: 記事一覧です。
+lead: Article Lists
 permalink: /test2/
 section: test2
 nav_order: 999
-sidebar_title: 関連記事
+sidebar_title: Related Articles
 is_category_top: true
 ---
 
