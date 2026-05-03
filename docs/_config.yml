@@ -23,14 +23,10 @@ navigation:
     url: /
 
 sections:
-  test:
-    title: report
+  report:
+    title: Report
     description: This page includes a kind of report.
     url: /report/
-  test2:
-    title: Test2
-    description: Test2
-    url: /test2/
 
 # 新しく記事を作る際は、sectionsに項目を作る。titleとdescriptionとurlも加える
 
