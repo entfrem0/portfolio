@@ -9,9 +9,11 @@ sidebar_title: Related Articles
 
 ## Introduction
 
-ここに説明を加える
+I am from Chiba, Japan, and enrolled into the Faculty of Engineering at Kyoto University in 2021.
+My current interests lie in data analysis, and I work with technologies such as Python and SQL.
 
-## Find out of categories
+
+## Find Out Of Categories
 
 <div class="kb-cards">
   {% assign all_pages = site.pages | sort: "nav_order" %}

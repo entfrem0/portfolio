@@ -19,7 +19,7 @@ defaults:
       sidebar_title: Same Categories
 
 navigation:
-  - title: portfolio
+  - title: Portfolio
     url: /
 
 sections:
