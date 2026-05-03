@@ -9,8 +9,22 @@ sidebar_title: Related Articles
 
 ## Introduction
 
-I am from Chiba, Japan, and enrolled into the Faculty of Engineering at Kyoto University in 2021.
-My current interests lie in data analysis, and I work with technologies such as Python and SQL.
+<div class="intro-profile">
+  <div class="intro-profile__text">
+    <h2>Introduction</h2>
+    <p>
+      I am from Chiba, Japan, and entered the Faculty of Engineering at Kyoto University in 2021.
+      Currently, I am interested in data analysis and use tools such as Python and SQL.
+    </p>
+  </div>
+
+  <div class="intro-profile__image-wrap">
+    <img
+      src="{{ '/assets/images/image.jpg' | relative_url }}"
+      alt="Profile photo"
+      class="intro-profile__image">
+  </div>
+</div>
 
 
 ## Find Out Of Categories
