@@ -402,6 +402,8 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   border-radius:50%;
   border:4px solid #fff;
   box-shadow:var(--shadow);
+
+  aspect-ratio:1 / 1;
 }
 
 @media (max-width: 640px){
