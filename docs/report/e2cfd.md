@@ -9,10 +9,6 @@ updated: 2026-02-05
 ---
 
 
-title: "Computational Fluid Dynamics Analysis"
-section: data-analysis
----
-
 # Computational Fluid Dynamics Analysis
 
 ## Overview
@@ -23,12 +19,12 @@ The main focus is on predicting the y-direction acceleration (dv/dt) using both 
 
 ## Report (Full Version)
 
-<!-- ここにGoogle Drive埋め込み -->
-<iframe 
-  src="https://drive.google.com/file/d/1qxphbqVtqhZ9bo3nbUPzfJ-pbJczeT-R/preview" 
-  width="100%" 
-  height="700">
-</iframe>
+<div class="pdf-container">
+  <iframe 
+    src="https://drive.google.com/file/d/1qxphbqVtqhZ9bo3nbUPzfJ-pbJczeT-R/preview"
+    allow="autoplay">
+  </iframe>
+</div>
 
 ---
 
@@ -154,4 +150,4 @@ This project highlights the importance of:
 
 ## Links
 
-- Code: [Github](https://github.com/entfrem0/E2_dataanalysis)
+- Github: [https://github.com/entfrem0/E2_dataanalysis](https://github.com/entfrem0/E2_dataanalysis)

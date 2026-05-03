@@ -352,3 +352,8 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
 .kb-category-index__list{list-style:none; padding:0; margin:14px 0 0; display:flex; flex-direction:column; gap:12px}
 .kb-category-index__item a{font-weight:700}
 .kb-category-index__lead{margin-top:4px; color:var(--muted); font-size:13px}
+
+.pdf-container{
+  width:100%;
+  height:calc(100vh - 200px); /* 画面にフィット */
+}
