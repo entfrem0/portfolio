@@ -32,22 +32,22 @@ The main focus is on predicting the y-direction acceleration (dv/dt) using both 
 
 This analysis is based on the Navier–Stokes equations, which describe fluid motion:
 
-$$
+\[
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u}
 = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u}
-$$
+\]
 
 where:
 
-- $$\mathbf{u} = (u, v)$$: velocity field  
-- $$p$$: pressure  
-- $$\rho$$: density  
-- $$\nu$$: kinematic viscosity  
+- $\mathbf{u} = (u, v)$: velocity field  
+- $p$: pressure  
+- $\rho$: density  
+- $\nu$: kinematic viscosity  
 
 Key variables include:
 
-- **Dependent variables**: velocity $$(u, v)$$, pressure $$(p)$$  
-- **Independent variables**: spatial coordinates $$(x, y)$$, time $$(t)$$  
+- **Dependent variables**: velocity $(u, v)$, pressure $(p)$  
+- **Independent variables**: spatial coordinates $(x, y)$, time $(t)$  
 
 The dataset consists of **10,000 samples**, including both laminar and turbulent flow regimes.
 
@@ -59,9 +59,9 @@ The dataset consists of **10,000 samples**, including both laminar and turbulent
 - Analyze pressure–velocity–acceleration interactions  
 - Build predictive models for:
 
-$$
+\[
 \frac{dv}{dt}
-$$
+\]
 
 - Compare model performance across different flow regimes  
 
@@ -73,15 +73,15 @@ $$
 
 - Pressure gradients influence acceleration:
 
-$$
+\[
 \frac{dv}{dt} \propto -\frac{\partial p}{\partial y}
-$$
+\]
 
 - Higher velocity tends to correspond to lower pressure (Bernoulli principle):
 
-$$
+\[
 p + \frac{1}{2} \rho u^2 = \text{constant}
-$$
+\]
 
 - Turbulent flow exhibits higher variability compared to laminar flow  
 
@@ -117,15 +117,15 @@ Hypothesis testing (ANCOVA) showed:
 
 ### Features
 
-$$
+\[
 t, \; u, \; v, \; p, \; \frac{du}{dt}
-$$
+\]
 
 ### Target
 
-$$
+\[
 \frac{dv}{dt}
-$$
+\]
 
 
 

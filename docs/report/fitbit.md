@@ -59,9 +59,9 @@ The analysis was conducted using:
 
 Key modeling approach:
 
-$$
+\[
 \mathrm{BPM}(t) = a \cdot \mathrm{steps}(t) + b \sin\left(\frac{2\pi t}{24}\right) + c \cos\left(\frac{2\pi t}{24}\right)
-$$
+\]
 
 This allows simultaneous modeling of:
 
