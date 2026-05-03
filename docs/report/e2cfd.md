@@ -36,7 +36,7 @@ Key variables include:
 - **Dependent variables**: velocity (u, v), pressure (p)  
 - **Independent variables**: spatial coordinates (x, y), time (t), and derivatives  
 
-The dataset consists of **10,000 samples**, including both laminar and turbulent flows.  [oai_citation:0‡CFD_en.pdf](sediment://file_0000000006447206816b445883486f0d)
+The dataset consists of **10,000 samples**, including both laminar and turbulent flows. 
 
 
 
