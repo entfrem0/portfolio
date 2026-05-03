@@ -133,7 +133,7 @@ $$
 
 ### Baseline Performance
 
-- $$R^2 \approx 0.088$$  
+- <span>$$R^2 \approx 0.088$$</span>  
 - Moderate predictive accuracy  
 
 ### Key Findings
