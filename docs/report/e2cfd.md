@@ -90,7 +90,7 @@ $$
 - Pressure vs acceleration  
 - Velocity vs pressure  
 - Velocity vs acceleration  
-- Velocity field $$(u, v)$$ plane  
+- Velocity field $(u, v)$ plane  
 
 
 
