@@ -2,7 +2,7 @@ title: Yuma Kanogi - Portfolio
 description: I mainly focus on projects in science and engineering fields.
 lang: ja
 url: "https://entfrem0.github.io"
-baseurl: "/Portfolio"
+baseurl: "/portfolio"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
@@ -16,7 +16,7 @@ defaults:
       type: pages
     values:
       layout: default
-      sidebar_title: 同じカテゴリの記事
+      sidebar_title: Same Categories
 
 navigation:
   - title: portfolio
@@ -24,12 +24,12 @@ navigation:
 
 sections:
   test:
-    title: テスト記事
-    description: テスト記事
+    title: Test1
+    description: Test1
     url: /test/
   test2:
-    title: テスト記事2
-    description: テスト記事2
+    title: Test2
+    description: Test2
     url: /test2/
 
 # 新しく記事を作る際は、sectionsに項目を作る。titleとdescriptionとurlも加える

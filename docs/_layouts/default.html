@@ -24,7 +24,7 @@
         <p class="kb-header__tagline">{{ site.description }}</p>
       </div>
       {% if site.navigation %}
-      <nav class="kb-header__nav" aria-label="サイト内メニュー">
+      <nav class="kb-header__nav" aria-label="Menu">
         {% for item in site.navigation %}
           {% assign normalized_page = page.url | append: '/' | replace: '//', '/' %}
           {% assign normalized_nav = item.url | append: '/' | replace: '//', '/' %}
@@ -68,7 +68,7 @@
   <!-- 主要カテゴリ -->
   {% if site.sections %}
   <div class="kb-sidebar__card kb-sidebar__card--categories">
-    <h2 class="kb-sidebar__title">主要カテゴリ</h2>
+    <h2 class="kb-sidebar__title">Main Categories</h2>
     <ul class="kb-sidebar__list">
       {% for sec in site.sections %}
         {% assign sec_key = sec[0] %}
@@ -92,7 +92,7 @@
 
   <!-- 同じカテゴリ内（関連記事） -->
 <div class="kb-sidebar__card">
-  <h2 class="kb-sidebar__title">{{ page.sidebar_title | default: "関連記事" }}</h2>
+  <h2 class="kb-sidebar__title">{{ page.sidebar_title | default: "Related Articles" }}</h2>
 
   {% assign all_pages = site.pages | sort: "nav_order" %}
   {% assign current_section = page.section | default: section_key %}
@@ -118,9 +118,9 @@
 </div>
 
   {% if page.updated %}
-    <p class="kb-sidebar__meta">最終更新: <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%Y-%m-%d" }}</time></p>
+    <p class="kb-sidebar__meta">Last Modified: <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%Y-%m-%d" }}</time></p>
   {% elsif page.date %}
-    <p class="kb-sidebar__meta">公開日: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></p>
+    <p class="kb-sidebar__meta">Released: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></p>
   {% endif %}
 </aside>
 
@@ -132,7 +132,7 @@
       {% if page.is_category_top %}
   {% assign pages_in_section = site.pages | where: "section", page.section | sort: "nav_order" %}
   <section class="kb-category-index">
-    <h2>このカテゴリの記事</h2>
+    <h2>Articles in this category</h2>
     <ul class="kb-category-index__list">
       {% for p in pages_in_section %}
         {% if p.url != page.url and p.title %}
@@ -155,7 +155,6 @@
   <footer class="kb-footer">
     <div class="kb-footer__inner">
       <p class="kb-footer__brand">{{ site.title }}</p>
-      <p class="kb-footer__meta">© {{ 'now' | date: '%Y' }} Questetra Support Prompts</p>
     </div>
   </footer>
 

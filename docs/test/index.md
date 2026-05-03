@@ -1,5 +1,5 @@
 ---
-title: Article
+title: Articles
 layout: default
 lead: Article Lists
 permalink: /test/
