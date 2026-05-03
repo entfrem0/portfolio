@@ -7,7 +7,8 @@ nav_order: 0
 sidebar_title: Related Articles
 ---
 
->This site was partially automatically translated into English using ChatGPT.
+## Disclaimer
+This site was partially translated into English using ChatGPT.
 
 <div class="intro-profile">
   <div class="intro-profile__text">
