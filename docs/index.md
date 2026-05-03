@@ -24,9 +24,6 @@ sidebar_title: Related Articles
   </div>
 </div>
 
-
-## Find Out Of Categories
-
 <div class="kb-cards">
   {% assign all_pages = site.pages | sort: "nav_order" %}
 
