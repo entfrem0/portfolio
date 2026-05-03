@@ -1,0 +1,43 @@
+title: Yuma Kanogi - Portfolio
+description: I mainly focus on projects in science and engineering fields.
+lang: ja
+url: "https://entfrem0.github.io"
+baseurl: "/portfolio"
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+google_fonts: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+
+collections: {}
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      sidebar_title: 同じカテゴリの記事
+
+navigation:
+  - title: portfolio
+    url: /
+
+sections:
+  test:
+    title: テスト記事
+    description: テスト記事
+    url: /test/
+  test2:
+    title: テスト記事2
+    description: テスト記事2
+    url: /test2/
+
+# 新しく記事を作る際は、sectionsに項目を作る。titleとdescriptionとurlも加える
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  toc_levels: 2..3
+
+sass:
+  style: compressed
