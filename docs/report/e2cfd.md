@@ -1,4 +1,4 @@
-
+---
 title: Data Analysis - Computer Fluid Dynamics
 layout: default
 section: report
@@ -6,7 +6,7 @@ date: 2026-02-05
 nav_order: 1
 lead: 
 updated: 2026-02-05
-
+---
 
 
 # Computational Fluid Dynamics Analysis
