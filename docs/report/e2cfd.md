@@ -22,22 +22,34 @@ The main focus is on predicting the y-direction acceleration (dv/dt) using both 
 
 <div class="pdf-container">
   <iframe 
-    src="https://drive.google.com/file/d/1qxphbqVtqhZ9bo3nbUPzfJ-pbJczeT-R/preview"
+    src="https://drive.google.com/file/d/18VwY0Zy07vOVMtP7KoV-1zsF6cOz-3VI/preview"
     allow="autoplay">
   </iframe>
 </div>
 
 
-
 ## Background
 
-The analysis is based on the Navier–Stokes equations, which describe fluid motion.  
+This analysis is based on the Navier–Stokes equations, which describe fluid motion:
+
+$$
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u}
+= -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u}
+$$
+
+where:
+
+- $\mathbf{u} = (u, v)$: velocity field  
+- $p$: pressure  
+- $\rho$: density  
+- $\nu$: kinematic viscosity  
+
 Key variables include:
 
-- **Dependent variables**: velocity (u, v), pressure (p)  
-- **Independent variables**: spatial coordinates (x, y), time (t), and derivatives  
+- **Dependent variables**: velocity $(u, v)$, pressure $(p)$  
+- **Independent variables**: spatial coordinates $(x, y)$, time $(t)$  
 
-The dataset consists of **10,000 samples**, including both laminar and turbulent flows. 
+The dataset consists of **10,000 samples**, including both laminar and turbulent flow regimes.
 
 
 
@@ -45,8 +57,13 @@ The dataset consists of **10,000 samples**, including both laminar and turbulent
 
 - Understand physical relationships in fluid flow  
 - Analyze pressure–velocity–acceleration interactions  
-- Build predictive models for dv/dt  
-- Compare performance across different flow regimes  
+- Build predictive models for:
+
+$$
+\frac{dv}{dt}
+$$
+
+- Compare model performance across different flow regimes  
 
 
 
@@ -54,16 +71,26 @@ The dataset consists of **10,000 samples**, including both laminar and turbulent
 
 ### Key Observations
 
-- Pressure differences influence acceleration  
-- Higher velocity tends to correspond to lower pressure (Bernoulli principle)  
-- Turbulent flow shows higher variability compared to laminar flow 
+- Pressure gradients influence acceleration:
+
+$$
+\frac{dv}{dt} \propto -\frac{\partial p}{\partial y}
+$$
+
+- Higher velocity tends to correspond to lower pressure (Bernoulli principle):
+
+$$
+p + \frac{1}{2} \rho u^2 = \text{constant}
+$$
+
+- Turbulent flow exhibits higher variability compared to laminar flow  
 
 ### Visualization
 
 - Pressure vs acceleration  
 - Velocity vs pressure  
 - Velocity vs acceleration  
-- Velocity field (u–v plane)
+- Velocity field $(u, v)$ plane  
 
 
 
@@ -72,28 +99,33 @@ The dataset consists of **10,000 samples**, including both laminar and turbulent
 Descriptive statistics revealed:
 
 - Large variability in pressure and acceleration  
-- Clear structural differences between laminar and turbulent flows 
+- Clear structural differences between laminar and turbulent flows  
+
 Hypothesis testing (ANCOVA) showed:
 
-- Interaction between pressure and flow type is significant  
-- Pressure gradient contributes to acceleration behavior  
+- Interaction between pressure and flow type is statistically significant  
+- Pressure gradients contribute to acceleration behavior  
 
 
 
 ## Machine Learning Approach
 
-### Models Used
+### Models
 
 - K-Nearest Neighbors Regression (KNR)  
 - Support Vector Regression (SVR)
 
 ### Features
 
-- t, u, v, p, dudt  
+$$
+t, \; u, \; v, \; p, \; \frac{du}{dt}
+$$
 
 ### Target
 
-- dvdt  
+$$
+\frac{dv}{dt}
+$$
 
 
 
@@ -101,23 +133,23 @@ Hypothesis testing (ANCOVA) showed:
 
 ### Baseline Performance
 
-- R² ≈ 0.088  
+- $R^2 \approx 0.088$  
 - Moderate predictive accuracy  
 
 ### Key Findings
 
 - Models perform better in **laminar flow**  
 - Prediction errors increase in **turbulent flow**  
-- SVR provides more stable predictions
+- SVR provides more stable predictions  
 
 
 
 ## Improvements
 
 - Cross-validation (Repeated K-Fold)  
-- PCA for dimensionality reduction  
+- Principal Component Analysis (PCA)  
 
-These improved the **stability** of model performance, even if average accuracy remained similar.
+These methods improved the **stability** of model performance, even though the average accuracy remained similar.
 
 
 
@@ -125,9 +157,9 @@ These improved the **stability** of model performance, even if average accuracy 
 
 This project highlights the importance of:
 
-- Combining **physics-based understanding** with data-driven methods  
+- Combining **physics-based modeling** with data-driven approaches  
 - Evaluating models carefully using cross-validation  
-- Considering flow regimes when modeling complex systems  
+- Accounting for different flow regimes in complex systems  
 
 
 
@@ -146,7 +178,6 @@ This project highlights the importance of:
 - Pandas / NumPy  
 - Scikit-learn  
 - Data Visualization  
-
 
 
 ## Links
