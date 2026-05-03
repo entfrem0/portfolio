@@ -416,3 +416,10 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
     order:-1;
   }
 }
+
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
