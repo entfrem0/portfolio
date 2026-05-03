@@ -39,15 +39,15 @@ $$
 
 where:
 
-- $\mathbf{u} = (u, v)$: velocity field  
-- $p$: pressure  
-- $\rho$: density  
-- $\nu$: kinematic viscosity  
+- $$\mathbf{u} = (u, v)$$: velocity field  
+- $$p$$: pressure  
+- $$\rho$$: density  
+- $$\nu$$: kinematic viscosity  
 
 Key variables include:
 
-- **Dependent variables**: velocity $(u, v)$, pressure $(p)$  
-- **Independent variables**: spatial coordinates $(x, y)$, time $(t)$  
+- **Dependent variables**: velocity $$(u, v)$$, pressure $$(p)$$  
+- **Independent variables**: spatial coordinates $$(x, y)$$, time $$(t)$$  
 
 The dataset consists of **10,000 samples**, including both laminar and turbulent flow regimes.
 
@@ -90,7 +90,7 @@ $$
 - Pressure vs acceleration  
 - Velocity vs pressure  
 - Velocity vs acceleration  
-- Velocity field $(u, v)$ plane  
+- Velocity field $$(u, v)$$ plane  
 
 
 
@@ -133,7 +133,7 @@ $$
 
 ### Baseline Performance
 
-- $R^2 \approx 0.088$  
+- $$R^2 \approx 0.088$$  
 - Moderate predictive accuracy  
 
 ### Key Findings
@@ -178,7 +178,6 @@ This project highlights the importance of:
 - Pandas / NumPy  
 - Scikit-learn  
 - Data Visualization  
-
 
 ## Links
 
