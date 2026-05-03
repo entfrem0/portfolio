@@ -4,7 +4,7 @@ layout: default
 section: report
 date: 2026-02-05
 nav_order: 1
-lead: 
+lead: This project analyzes a fluid dynamics dataset to understand the relationship between pressure, velocity, and acceleration.
 updated: 2026-02-05
 ---
 
