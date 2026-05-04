@@ -419,7 +419,7 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   }
 
   .intro-profile__image-wrap{
-    order:-1;
+    order: 0;
   }
 }
 
