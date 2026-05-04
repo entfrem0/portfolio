@@ -501,3 +501,11 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   margin-top:8px;
 
 }
+
+@media (max-width: 640px){
+  .pdf-container{
+    height:70vh;
+    min-height:420px;
+  }
+
+}
