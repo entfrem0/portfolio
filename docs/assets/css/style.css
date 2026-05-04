@@ -423,3 +423,91 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   overflow-y: hidden;
   box-sizing: border-box;
 }
+
+/* =========================
+
+   Contact Card
+
+========================= */
+
+.contact-card{
+
+  margin:32px 0;
+
+  padding:28px 24px;
+
+  border-radius:var(--radius-lg);
+
+  background:var(--surface);
+
+  border:1px solid var(--border);
+
+  box-shadow:var(--shadow);
+
+  text-align:center;
+
+}
+
+/* タイトル */
+
+.contact-card p{
+
+  margin:0;
+
+  font-size:14px;
+
+  color:var(--muted);
+
+  letter-spacing:.08em;
+
+}
+
+/* ボタン */
+
+.contact-btn{
+
+  display:inline-block;
+
+  margin-top:14px;
+
+  padding:12px 18px;
+
+  border-radius:999px;
+
+  background:var(--accent);
+
+  color:#fff;
+
+  font-weight:600;
+
+  text-decoration:none;
+
+  box-shadow:0 8px 20px rgba(249,115,22,.25);
+
+  transition:.25s ease;
+
+}
+
+/* ホバー */
+
+.contact-btn:hover{
+
+  background:var(--accent-dark);
+
+  transform:translateY(-3px);
+
+  box-shadow:0 12px 28px rgba(249,115,22,.35);
+
+  text-decoration:none;
+
+}
+
+/* クリック時ちょい沈む */
+
+.contact-btn:active{
+
+  transform:translateY(-1px);
+
+  box-shadow:0 6px 14px rgba(249,115,22,.25);
+
+}

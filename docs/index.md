@@ -26,6 +26,13 @@ sidebar_title: Related Articles
   </div>
 </div>
 
+<div class="contact-card">
+  <p><strong>Contact</strong></p>
+  <a href="https://linktr.ee/yumakanogi" class="contact-btn">
+    View my links →
+  </a>
+</div>
+
 <div class="kb-cards">
   {% assign all_pages = site.pages | sort: "nav_order" %}
 
