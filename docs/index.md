@@ -26,7 +26,7 @@ sidebar_title: Related Articles
   </div>
 
   <div class="contact-inline">
-    <h2><strong>Contact</h2>
+    <h2>Contact</h2>
     <a href="https://linktr.ee/yumakanogi" class="contact-btn">
         View my links ↗
     </a>
