@@ -27,7 +27,7 @@ sidebar_title: Related Articles
 </div>
 
 <div class="contact-card">
-  <p><strong>Contact</strong></p>
+  <h2>Contact</h2>
   <a href="https://linktr.ee/yumakanogi" class="contact-btn">
     View my links →
   </a>
