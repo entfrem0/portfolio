@@ -25,6 +25,9 @@ sidebar_title: Related Articles
       class="intro-profile__image">
   </div>
 
+</div>
+
+<div class="intro-profile">
   <div class="contact-inline">
     <h2>Contact</h2>
     <a href="https://linktr.ee/yumakanogi" class="contact-btn">
