@@ -387,9 +387,13 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   margin-top:0;
 }
 
-.intro-profile__text p{
-  margin-bottom:0;
+.intro-profile__text{
   align-self: start;
+}
+
+.intro-profile__text p{
+  margin-top:8px;   /* ←小さくする */
+  margin-bottom:0;
 }
 
 .intro-profile__image-wrap{
