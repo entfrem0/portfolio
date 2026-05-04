@@ -19,6 +19,7 @@ sidebar_title: Related Articles
   </div>
 
   <div class="intro-profile__image-wrap">
+    <h2>Yuma Kanogi</h2>
     <img
       src="{{ '/assets/images/image.jpg' | relative_url }}"
       alt="Profile photo"
