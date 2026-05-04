@@ -387,12 +387,9 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   margin-top:0;
 }
 
-.intro-profile__text h2{
-  margin-top:0;
-}
-
 .intro-profile__text p{
   margin-bottom:0;
+  align-self: start;
 }
 
 .intro-profile__image-wrap{
