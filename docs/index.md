@@ -18,28 +18,19 @@ sidebar_title: Related Articles
     </p>
   </div>
 
-  <!-- ここに追加 -->
-
-    <div class="contact-inline">
-      <p><strong>Contact</strong></p>
-      <a href="https://linktr.ee/yumakanogi" class="contact-btn">
-        View my links ↗
-      </a>
-    </div>
-
   <div class="intro-profile__image-wrap">
     <img
       src="{{ '/assets/images/image.jpg' | relative_url }}"
       alt="Profile photo"
       class="intro-profile__image">
   </div>
-</div>
 
-<div class="contact-card">
-  <h2>Contact</h2>
-  <a href="https://linktr.ee/yumakanogi" class="contact-btn">
-    View my links →
-  </a>
+  <div class="contact-inline">
+    <h2><strong>Contact</h2>
+    <a href="https://linktr.ee/yumakanogi" class="contact-btn">
+        View my links ↗
+    </a>
+  </div>
 </div>
 
 <div class="kb-cards">
