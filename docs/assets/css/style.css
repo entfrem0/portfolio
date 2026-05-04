@@ -382,6 +382,11 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   background:rgba(249,115,22,.04);
 }
 
+.intro-profile__title{
+  grid-column:1 / -1;   /* ←これが重要 */
+  margin-top:0;
+}
+
 .intro-profile__text h2{
   margin-top:0;
 }
@@ -475,7 +480,7 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
 }
 
 .contact-inline{
-
+  grid-column:1 / -1;
 }
 
 .contact-inline p{
