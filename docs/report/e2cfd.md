@@ -8,8 +8,6 @@ lead: This project analyzes a fluid dynamics dataset to understand the relations
 updated: 2026-02-05
 ---
 
-> This page was automatically translated into English using ChatGPT.
-
 # Computational Fluid Dynamics Analysis
 
 ## Overview

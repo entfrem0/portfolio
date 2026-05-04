@@ -7,8 +7,6 @@ nav_order: 0
 sidebar_title: Related Articles
 ---
 
-**Disclaimer** : This site was partially translated into English using ChatGPT.
-
 <div class="intro-profile">
 
   <h2 class="intro-profile__title">Introduction - Yuma Kanogi</h2>

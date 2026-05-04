@@ -8,7 +8,6 @@ lead: This report presents an analysis of daily activity patterns and physiologi
 updated: 2026-05-03
 ---
 
-> This page was automatically translated into English using ChatGPT.
 
 #  Fitbit Data Analysis (March 2026)
 
