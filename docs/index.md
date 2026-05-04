@@ -11,7 +11,7 @@ sidebar_title: Related Articles
 
 <div class="intro-profile">
   <div class="intro-profile__text">
-    <h2>Introduction</h2>
+    <h2>Introduction - Yuma Kanogi</h2>
     <p>
       I am from Chiba, Japan, and entered the Faculty of Engineering at Kyoto University in 2021.
       Currently, I am interested in data analysis and use tools such as Python and SQL.
@@ -19,7 +19,6 @@ sidebar_title: Related Articles
   </div>
 
   <div class="intro-profile__image-wrap">
-    <h2>Yuma Kanogi</h2>
     <img
       src="{{ '/assets/images/image.jpg' | relative_url }}"
       alt="Profile photo"
