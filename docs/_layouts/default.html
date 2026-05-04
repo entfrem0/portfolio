@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {% assign section_key = page.section | default: path_parts[1] | default: '' %}
         {% assign section_meta = site.sections[section_key] %}
         <nav class="kb-breadcrumb" aria-label="パンくずリスト">
-          <a href="{{ '/' | relative_url }}">ホーム</a>
+          <a href="{{ '/' | relative_url }}">Home</a>
           {% if section_meta %}
             <span aria-hidden="true">›</span>
             <a href="{{ section_meta.url | relative_url }}">{{ section_meta.title }}</a>
