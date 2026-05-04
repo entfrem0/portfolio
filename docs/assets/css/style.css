@@ -424,44 +424,6 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   box-sizing: border-box;
 }
 
-/* =========================
-
-   Contact Card
-
-========================= */
-
-.contact-card{
-
-  margin:32px 0;
-
-  padding:28px 24px;
-
-  border-radius:var(--radius-lg);
-
-  background:var(--surface);
-
-  border:1px solid var(--border);
-
-  box-shadow:var(--shadow);
-
-  text-align:center;
-
-}
-
-/* タイトル */
-
-.contact-card p{
-
-  margin:0;
-
-  font-size:14px;
-
-  color:var(--muted);
-
-  letter-spacing:.08em;
-
-}
-
 /* ボタン */
 
 .contact-btn{
@@ -509,5 +471,33 @@ thead{background:rgba(249,115,22,.08); color:var(--muted)}
   transform:translateY(-1px);
 
   box-shadow:0 6px 14px rgba(249,115,22,.25);
+
+}
+
+.contact-inline{
+
+  margin-top:20px;
+
+  padding-top:16px;
+
+  border-top:1px solid var(--border);
+
+}
+
+.contact-inline p{
+
+  margin:0;
+
+  font-size:13px;
+
+  color:var(--muted);
+
+  letter-spacing:.08em;
+
+}
+
+.contact-inline .contact-btn{
+
+  margin-top:8px;
 
 }
