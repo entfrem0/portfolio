@@ -2,7 +2,7 @@ title: Yuma Kanogi - Portfolio
 description: I mainly focus on projects in science and engineering fields.
 lang: ja
 url: "https://entfrem0.github.io"
-baseurl: "/Portfolio"
+baseurl: "/portfolio"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
