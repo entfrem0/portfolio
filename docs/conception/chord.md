@@ -4,7 +4,7 @@ layout: default
 section: conception
 date: 2026-05-05
 nav_order: 1
-lead: 
+lead: This project focuses on audio-based analysis for recognizing complex jazz chords, including slash chords and tension chords.
 updated: 2026-05-05
 ---
 
