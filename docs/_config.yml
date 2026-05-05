@@ -30,7 +30,7 @@ sections:
   conception:
     title: Conception
     description: This page includes my idea or conception I've not published yet.
-    ur;: /conception/
+    url: /conception/
 
 # 新しく記事を作る際は、sectionsに項目を作る。titleとdescriptionとurlも加える
 

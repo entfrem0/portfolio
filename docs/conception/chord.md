@@ -18,8 +18,6 @@ For example, chords like Gm/C (a slash chord) or C7(#9, b13) (a tension chord) i
 
 From a personal perspective, I possess a strong sense of pitch, allowing me to identify tuning differences at the Hz level. I am also able to recognize common chords used in pop music with relative ease. However, I often struggle to accurately identify complex jazz chords such as slash chords and tension chords, where separating bass notes and harmonic structures becomes significantly more difficult. This experience motivated my interest in developing computational approaches to assist in complex chord recognition.
 
----
-
 ## 2. Objective
 
 The objective of this study is to develop an audio-based analysis method for recognizing complex jazz chords, with a particular focus on:
@@ -30,15 +28,11 @@ The objective of this study is to develop an audio-based analysis method for rec
 
 The goal is to design a system capable of estimating both bass notes and chord structures, and to improve recognition accuracy compared to conventional methods.
 
----
-
 ## 3. Methodology
 
 ### 3.1 Feature Extraction
 
 Audio signals will be processed to extract chroma features, which represent the distribution of energy across the 12 pitch classes. Additionally, low-frequency analysis will be used to estimate bass notes, which is critical for identifying slash chords.
-
----
 
 ### 3.2 Chord Estimation Model
 
@@ -78,3 +72,33 @@ Future extensions may include:
 - Real-time chord recognition  
 
 - Integration of harmonic progression analysis (e.g., key modulation)
+
+## 7. Required Python Libraries
+
+To implement the proposed system, the following Python libraries will be utilized:
+
+- **librosa**  
+  A core library for audio signal processing and feature extraction. It will be used to compute spectrograms, chroma features, and other relevant audio representations.
+
+- **numpy**  
+  A fundamental package for numerical computation, used for handling arrays and mathematical operations on audio data.
+
+- **pandas**  
+  Used for organizing and managing structured data, such as chord labels and time-aligned annotations.
+
+- **scikit-learn**  
+  Provides machine learning algorithms (e.g., logistic regression, SVM) for baseline chord classification tasks.
+
+- **PyTorch (or TensorFlow)**  
+  Deep learning frameworks used to implement more advanced models, such as neural networks for chord recognition.
+
+- **matplotlib / seaborn**  
+  Visualization libraries used to plot spectrograms, chroma features, and evaluation results.
+
+- **music21**  
+  A toolkit for symbolic music analysis. It can be used to handle MIDI data, analyze chord structures, and assist in mapping between notes and chord labels.
+
+- **scipy**  
+  Used for signal processing tasks such as filtering and frequency analysis.
+
+These libraries collectively support audio processing, feature extraction, machine learning, and data visualization, forming the technical foundation of the proposed system.
