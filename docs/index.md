@@ -20,7 +20,7 @@ sidebar_title: Related Articles
 
   <div class="intro-profile__image-wrap">
     <img
-      src="{{ '/assets/images/image.jpg' | relative_url }}"
+      src="{{ '/assets/images/image.jpeg' | relative_url }}"
       alt="Profile photo"
       class="intro-profile__image">
   </div>
