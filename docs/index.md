@@ -14,7 +14,6 @@ sidebar_title: Related Articles
   <div class="intro-profile__text">
     <p>
       I am from Chiba, Japan, and entered the Faculty of Engineering at Kyoto University in 2021.
-      Currently, I am interested in data analysis and use tools such as Python and SQL.
     </p>
   </div>
 
